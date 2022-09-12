@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Youtube-captioning-interface/static/css/main.763366ea.css",
+    "main.js": "/Youtube-captioning-interface/static/js/main.24ad0e37.js",
+    "index.html": "/Youtube-captioning-interface/index.html",
+    "main.763366ea.css.map": "/Youtube-captioning-interface/static/css/main.763366ea.css.map",
+    "main.24ad0e37.js.map": "/Youtube-captioning-interface/static/js/main.24ad0e37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.763366ea.css",
+    "static/js/main.24ad0e37.js"
+  ]
+}
