@@ -1,0 +1,11 @@
+.sidebar{
+    /* border: 1px solid blue; */
+    flex: 0.2; /* flex goes from 0 - 1 only */
+}
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

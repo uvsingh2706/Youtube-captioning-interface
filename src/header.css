@@ -1,0 +1,43 @@
+.header{
+    display: flex; /*bring things in a row  */
+    align-items: center; 
+    justify-content:space-between;
+    padding: 20px;
+    position: sticky; /*It just maintain our header at Top only */
+    top: 0; /*it is must to have with position  */
+    z-index: 100; 
+    background-color: white;
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px; /*To make logo some dist far from menu icon*/
+    /* padding: 18px 14px 18px 16px; 
+    color: var(--yt-spec-wordmark-text);
+    flex: none; */
+} 
+.header__input{
+    display: flex;  /*for different div we have to use display fle and align items property*/
+    align-items: center;
+    width: 40%;
+    border: 1px solid black;
+}
+.header__inputbutton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: grey;
+}
+.header__icon{
+    margin-right: 5px;
+
+}
+.header__input > input{ /*This(>) means inside header input targeting input */
+    flex: 1;
+    border: none;
+
+}
+.header__icons{
+    display: flex;
+    align-items: center;
+}
